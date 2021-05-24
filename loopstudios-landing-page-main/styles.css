@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+    --Dark-Gray: hsl(0, 0%, 55%);
+    --Very-Dark-Gray: hsl(0, 0%, 41%);
+    --headline-font: 'Josefin Sans', sans-serif;
+    --main-font: font-family: 'Alata', sans-serif;
+}
+
+.banner-section {
+    background: url("./images/desktop/image-hero.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: var(--White);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+ul.nav-links {
+    display: flex;
+}
+
+li.nav-link {
+    list-style-type: none;
+    font-family: var(--main-font);
+    font-size: 18px;
+    padding: 20px;
+}
+
+li.nav-link>a {
+    text-decoration: none;
+    color: var(--white);
+    padding: 5px;
+}
+
+li.nav-link>a:hover {
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.tagline {
+    border: 4px solid white;
+    height: auto;
+    width: 45%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 136px 0px 0px 157px;
+}
+
+.tagline>h1 {
+    font-family: var(--headline-font);
+    font-size: 4.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+section.features {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 10rem;
+}
+
+div.feature-img {
+    width: 60%;
+}
+
+div.feature-info {
+    width: 40%;
+    position: absolute;
+    background: var(--White);
+    padding: 65px;
+    bottom: -622px;
+    height: 375px;
+    right: 194px;
+    text-align: justify;
+}
+
+div.feature-info>h1 {
+    font-family: var(--headline-font);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+}
+
+img.f-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
