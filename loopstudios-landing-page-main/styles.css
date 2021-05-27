@@ -93,7 +93,7 @@ div.feature-info {
     text-align: justify;
 }
 
-div.feature-info>h1 {
+h1.heading {
     font-family: var(--headline-font);
     text-transform: uppercase;
     font-size: 2.5rem;
@@ -105,4 +105,27 @@ img.f-img {
     position: relative;
     width: 100%;
     height: auto;
+}
+
+.gallery {
+    width: 100%;
+    height: auto;
+    padding: 10rem;
+    padding-top: 10px;
+}
+
+.gallery-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-transform: capitalize;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
 }
